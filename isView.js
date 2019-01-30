@@ -1,6 +1,5 @@
 function isView(htmlSelect){
 	//get用于计算的一些value
-	if($(htmlSelect).is(":hidden"))return 0;
 	var viewOverTop = $(window).scrollTop();
 	var viewOverLeft = $(window).scrollLeft();
 	var viewHeight = $(window).height();
